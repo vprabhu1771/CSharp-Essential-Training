@@ -1,0 +1,21 @@
+using System;
+using System.IO;
+
+namespace HelloWorld {
+
+   class Program {
+
+      static void Main(string[] args) {
+            
+         string root = @"C:\Windows";
+
+         Directory.SetCurrentDirectory(root);
+
+         Console.WriteLine(Directory.GetCurrentDirectory());
+            
+      }
+   }
+}
+
+OUTPUT
+C:\Windows

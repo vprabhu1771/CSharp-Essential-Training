@@ -1,0 +1,17 @@
+int x = 7;
+
+int y = 3;
+
+Console.WriteLine("x = " + x);
+
+Console.WriteLine("y = " + y);
+
+Console.WriteLine(x + " / " + y + " = " + (x/y));
+
+OUTPUT
+
+x = 7
+
+y = 3
+
+7 / 3 = 2

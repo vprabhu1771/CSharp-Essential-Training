@@ -1,0 +1,26 @@
+int count; 
+
+int table_no = 2;
+
+for(count = 1; count <= 10; count++)
+{
+    Console.Write(count + " * ");
+
+    Console.Write(table_no + " = ");
+
+    Console.WriteLine(count*table_no);
+
+}
+
+OUTPUT
+
+1 * 2 = 2
+2 * 2 = 4
+3 * 2 = 6
+4 * 2 = 8
+5 * 2 = 10
+6 * 2 = 12
+7 * 2 = 14
+8 * 2 = 16
+9 * 2 = 18
+10 * 2 = 20

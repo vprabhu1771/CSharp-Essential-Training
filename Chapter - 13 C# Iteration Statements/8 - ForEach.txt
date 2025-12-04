@@ -1,0 +1,12 @@
+string[] fruits = {"Apple", "Orange", "Mango", "Jack Fruit"};
+
+foreach(string element in fruits)
+{
+    Console.WriteLine(element);
+}
+
+OUTPUT
+Apple
+Orange
+Mango
+Jack Fruit

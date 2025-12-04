@@ -1,0 +1,35 @@
+In C#, we can use string interpolation to insert variables inside a string. For string interpolation, the string literal must begin with the $ character. For example,
+
+using System;
+using System.IO;
+
+namespace HelloWorld {
+
+   class Program {
+
+      static void Main(string[] args) {
+            
+         string name = "Prabhu";
+
+         // string interpolation
+         string message = $"Welcome to {name}";
+
+         Console.WriteLine(message);
+                     
+      }      
+   }
+}
+
+OUTPUT
+Welcome to Prabhu
+
+
+In the above example, we are using the name variable inside the message string.
+
+string message = $"Welcome to {name}";
+
+
+Notice that,
+
+    the string literal starts with $
+    the name variable is placed inside the curly braces {}

@@ -1,0 +1,33 @@
+using System;
+using System.IO;
+
+namespace HelloWorld {
+
+   class Program {
+
+      static void Main(string[] args) {
+            
+         Console.WriteLine("Enter x value");
+
+         float? x = Single.Parse(Console.ReadLine());
+
+         Console.WriteLine("Enter y value");
+
+         float? y = Single.Parse(Console.ReadLine());
+
+         Console.WriteLine("x = " + x);
+
+         Console.WriteLine("y = " + y);
+                     
+      }
+   }
+}
+
+OUTPUT
+
+Enter x value
+2.9
+Enter y value
+4.5
+x = 2.9
+y = 4.5

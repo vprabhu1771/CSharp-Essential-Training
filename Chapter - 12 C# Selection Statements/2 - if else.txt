@@ -1,0 +1,14 @@
+int age = 25;
+
+if(age >= 18)
+{
+    Console.Write("You are eligible for voting");
+}
+else
+{
+    Console.Write("You are not eligible for voting");
+}
+
+OUTPUT
+
+You are eligible for voting

@@ -1,0 +1,22 @@
+using System;
+using System.IO;
+
+namespace HelloWorld {
+
+   class Program {
+
+      static void Main(string[] args) {
+            
+         string data1 = "Cuddalore";
+
+         string data2 = "Cuddalore";
+
+         Console.WriteLine(string.Equals(data1, data2));
+                     
+      }      
+   }
+}
+
+OUTPUT
+
+True

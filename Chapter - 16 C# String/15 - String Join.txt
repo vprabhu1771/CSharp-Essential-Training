@@ -1,0 +1,31 @@
+using System;
+using System.IO;
+
+namespace HelloWorld {
+
+   class Program {
+
+      static void Main(string[] args) {
+            
+         object[] data = {"i", "am", "from", "cuddalore"};
+
+
+         // Using Join method
+         // Here separator is space
+         string result = string.Join(" ", data);
+         
+         Console.WriteLine(result);
+
+         // Here separator is ', '( comma )
+         result = string.Join(",", data);
+
+         Console.WriteLine(result);
+      }      
+   }
+}
+
+OUTPUT
+
+i am from cuddalore
+
+i,am,from,cuddalore

@@ -1,0 +1,6 @@
+int age = 22;
+
+Console.WriteLine( (age >= 18) ?  "Eligible for Voting" : "Not Eligible for Voting");
+
+OUTPUT
+Eligible for Voting

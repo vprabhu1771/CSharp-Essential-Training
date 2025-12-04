@@ -1,0 +1,26 @@
+using System;
+using System.IO;
+
+namespace HelloWorld {
+
+   class Program {
+
+      static void Main(string[] args) {
+            
+         string data1 = "Welcome to Cuddalore";
+
+         string[] output1 = data1.Split(' ');
+
+         foreach (var element in output1)
+         {
+            Console.WriteLine($"Substring: {element}");
+         }
+                     
+      }      
+   }
+}
+
+OUTPUT
+Substring: Welcome
+Substring: to
+Substring: Cuddalore

@@ -1,0 +1,13 @@
+int age = 20;
+
+if(age >= 18 && age <= 22)
+{
+    Console.Write("You are eligible for house loan");
+}
+else
+{
+    Console.Write("You are not eligible for house loan");
+}
+
+OUTPUT
+You are eligible for house loan

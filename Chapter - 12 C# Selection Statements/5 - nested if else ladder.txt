@@ -1,0 +1,24 @@
+int age = 20;
+
+if(age >= 18 && age <= 22)
+{
+    Console.WriteLine("You are eligible for house loan");
+
+    if(age >= 18 && age <= 20)
+    {
+        Console.WriteLine("Car Loan also available");
+    }
+    else
+    {
+        Console.WriteLine("Car loan not available");
+    }
+}
+else
+{
+    Console.Write("You are not eligible for house loan");
+}
+
+OUTPUT
+
+You are eligible for house loan
+Car Loan also available

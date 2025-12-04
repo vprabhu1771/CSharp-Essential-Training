@@ -1,0 +1,21 @@
+returns the position of the specified character in the string
+
+using System;
+using System.IO;
+
+namespace HelloWorld {
+
+   class Program {
+
+      static void Main(string[] args) {
+            
+         string data = "good";
+
+         Console.WriteLine(data.IndexOf('g'));
+                     
+      }      
+   }
+}
+
+OUTPUT
+0

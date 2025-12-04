@@ -1,0 +1,9 @@
+int x = 7;
+
+x /= 3;
+
+Console.WriteLine("x = " + x);
+
+OUTPUT
+
+x = 2

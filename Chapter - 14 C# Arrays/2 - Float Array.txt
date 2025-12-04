@@ -1,0 +1,13 @@
+float[] data = {10f, 20f, 30f, 40f, 50f};
+
+foreach(float element in data)
+{
+	Console.WriteLine("{0:F2} ", element);
+}
+
+OUTPUT
+10.00 
+20.00 
+30.00 
+40.00 
+50.00

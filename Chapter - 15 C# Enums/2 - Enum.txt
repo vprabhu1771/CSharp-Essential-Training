@@ -1,0 +1,29 @@
+using System;
+
+namespace HelloWorld {
+
+   class Program {
+
+      enum DAYS { SUN, MON, TUE, WED, THU, FRI, SAT };
+
+      static void Main(string[] args) {
+            
+            int WeekdayStart = (int)DAYS.MON;
+            
+            int WeekdayEnd = (int)DAYS.FRI;
+                     
+            Console.WriteLine("Monday: {0}", WeekdayStart);
+           
+            Console.WriteLine("Friday: {0}", WeekdayEnd);
+           
+            Console.ReadKey();
+
+        }
+   }
+}
+
+OUTPUT
+
+Monday: 1
+Friday: 5
+^C

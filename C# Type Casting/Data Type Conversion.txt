@@ -1,0 +1,8 @@
+float a = 12.7F;
+
+int b = (int) a;
+
+Console.Write(b);
+
+OUTPUT
+12

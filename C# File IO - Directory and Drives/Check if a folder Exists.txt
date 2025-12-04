@@ -1,0 +1,19 @@
+using System;
+using System.IO;
+
+namespace HelloWorld {
+
+   class Program {
+
+      static void Main(string[] args) {
+            
+         string root = @"D:\songs";
+
+         Console.WriteLine(Directory.Exists(root));
+                     
+      }
+   }
+}
+
+OUTPUT
+True

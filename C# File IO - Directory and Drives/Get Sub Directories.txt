@@ -1,0 +1,26 @@
+using System;
+using System.IO;
+
+namespace HelloWorld {
+
+   class Program {
+
+      static void Main(string[] args) {
+            
+         string root = @"C:\Windows";
+
+         string[] subdirectoryEntries = Directory.GetDirectories(root);
+
+         foreach (string element in subdirectoryEntries)
+            Console.WriteLine(element);
+            
+      }
+   }
+}
+
+OUTPUT
+C:\Windows\addins
+C:\Windows\appcompat
+C:\Windows\apppatch
+C:\Windows\AppReadiness
+C:\Windows\assembly

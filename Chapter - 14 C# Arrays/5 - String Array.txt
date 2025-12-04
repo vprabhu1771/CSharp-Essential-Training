@@ -1,0 +1,12 @@
+string[] data = {"Volvo", "BMW", "Ford", "Mazda"};
+
+foreach(string element in data)
+{
+	Console.WriteLine("{0} ", element);
+}
+
+OUTPUT
+Volvo 
+BMW 
+Ford 
+Mazda

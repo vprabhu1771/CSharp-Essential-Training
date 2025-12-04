@@ -1,0 +1,20 @@
+using System;
+using System.IO;
+
+namespace HelloWorld {
+
+   class Program {
+
+      static void Main(string[] args) {
+            
+         string data = "I am from cuddalore";
+
+         Console.WriteLine(data.Substring(5));   
+
+      }      
+   }
+}
+
+OUTPUT
+
+from cuddalore

@@ -1,0 +1,19 @@
+using System;
+using System.IO;
+
+namespace HelloWorld {
+
+   class Program {
+
+      static void Main(string[] args) {
+            
+         string root = @"C:\Program Files (x86)";
+
+         Console.WriteLine(Directory.GetDirectoryRoot(root));
+            
+      }
+   }
+}
+
+OUTPUT
+C:\

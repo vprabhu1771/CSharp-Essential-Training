@@ -1,0 +1,13 @@
+double[] data = {10, 20, 30, 40, 50};
+
+foreach(double element in data)
+{
+	Console.WriteLine("{0:F2} ", element);
+}
+
+OUTPUT
+10.00 
+20.00 
+30.00 
+40.00 
+50.00

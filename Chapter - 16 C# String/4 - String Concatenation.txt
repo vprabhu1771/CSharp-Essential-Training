@@ -1,0 +1,21 @@
+using System;
+using System.IO;
+
+namespace HelloWorld {
+
+   class Program {
+
+      static void Main(string[] args) {
+            
+         string data1 = "C#";
+
+         string data2 = " Programming";
+
+         Console.WriteLine(string.Concat(data1, data2));
+                     
+      }      
+   }
+}
+
+OUTPUT
+C# Programming

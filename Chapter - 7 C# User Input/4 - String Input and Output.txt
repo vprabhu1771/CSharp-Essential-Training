@@ -1,0 +1,23 @@
+using System;
+using System.IO;
+
+namespace HelloWorld {
+
+   class Program {
+
+      static void Main(string[] args) {
+            
+         Console.WriteLine("Enter your name");
+
+         string? name = Console.ReadLine();
+
+         Console.WriteLine("Name : " + name);
+                     
+      }
+   }
+}
+
+OUTPUT
+Enter your name
+prabhu
+Name : prabhu

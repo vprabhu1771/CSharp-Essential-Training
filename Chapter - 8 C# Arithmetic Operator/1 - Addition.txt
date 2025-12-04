@@ -1,0 +1,17 @@
+int x = 2;
+
+int y = 2;
+
+Console.WriteLine("x = " + x);
+
+Console.WriteLine("y = " + y);
+
+Console.WriteLine(x + " + " + y + " = " + (x+y));
+
+OUTPUT
+
+x = 2
+
+y = 2
+
+2 + 2 = 4

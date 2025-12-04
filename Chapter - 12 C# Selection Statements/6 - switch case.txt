@@ -1,0 +1,23 @@
+int option = 3;
+
+switch(option)
+{
+    case 1:
+        Console.WriteLine("Good Morning");
+        break;
+    case 2:
+        Console.WriteLine("Good Afternoon");
+        break;
+    case 3:
+        Console.WriteLine("Good Evening");
+        break;
+    case 4:
+        Console.WriteLine("Good Night");
+        break;
+    default:
+        Console.WriteLine("Invalid Option");
+        break;
+}
+
+OUTPUT
+Good Evening

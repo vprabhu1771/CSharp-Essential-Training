@@ -1,0 +1,21 @@
+An enumeration is a set of named integer constants. An enumerated type is declared using the enum keyword.
+
+C# enumerations are value data type. In other words, enumeration contains its own values and cannot inherit or cannot pass inheritance.
+
+Declaring enum Variable
+
+enum <enum_name> {
+   enumeration list 
+};
+
+Where,
+
+1 - The enum_name specifies the enumeration type name.
+
+2 - The enumeration list is a comma-separated list of identifiers.
+
+Each of the symbols in the enumeration list stands for an integer value, one greater than the symbol that precedes it. By default, the value of the first enumeration symbol is 0.
+
+For example −
+
+enum DAYS { SUN, MON, TUE, WED, THU, FRI, SAT };

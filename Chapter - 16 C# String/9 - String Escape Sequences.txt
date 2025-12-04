@@ -1,0 +1,34 @@
+The escape character is used to escape some of the characters present inside a string. In other words, we use escape sequences to insert special characters inside the string.
+
+Suppose we need to include double quotes inside a string.
+
+// include double quote
+string str = "This is the "String" class";
+
+
+Since strings are represented by double quotes, the compiler will treat "This is the " as the string. And the above code will cause an error.
+
+To solve this issue, we use the escape character \" in C#. For example,
+
+
+// use the escape character
+string str = "This is the \"String\" class.";
+
+
+Now by using \ before double quote ", we can include it in the string.
+
+Some of the escape sequences in C# are as follows:
+
+Escape Sequence		Character Name
+
+\'			single quote
+
+\"    			double quote
+
+\\  			backslash
+
+\0			null
+
+\n   			new line
+
+\t     			horizontal tab

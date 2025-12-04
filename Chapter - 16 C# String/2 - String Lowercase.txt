@@ -1,0 +1,22 @@
+converts the string to lowercase
+
+using System;
+using System.IO;
+
+namespace HelloWorld {
+
+   class Program {
+
+      static void Main(string[] args) {
+            
+         string data = "GOOD";
+
+         Console.WriteLine(data.ToLower());
+                     
+      }      
+   }
+}
+
+OUTPUT
+
+good

@@ -1,0 +1,23 @@
+using System;
+using System.IO;
+
+namespace HelloWorld {
+
+   class Program {
+
+      static void Main(string[] args) {
+            
+         Console.WriteLine("Enter any character");
+
+         char data = Convert.ToChar(Console.ReadLine());
+
+         Console.WriteLine("character is : " + data);
+                     
+      }
+   }
+}
+
+OUTPUT
+Enter any character
+a
+character is : a

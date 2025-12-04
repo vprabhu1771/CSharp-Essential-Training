@@ -1,0 +1,17 @@
+int x = 12;
+
+int y = 2;
+
+Console.WriteLine("x = " + x);
+
+Console.WriteLine("y = " + y);
+
+Console.WriteLine(x + " - " + y + " = " + (x-y));
+
+OUTPUT
+
+x = 12
+
+y = 2
+
+12 - 2 = 10

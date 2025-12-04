@@ -1,0 +1,30 @@
+using System;
+using System.IO;
+
+namespace HelloWorld {
+
+   class Program {
+
+      static void Main(string[] args) {
+            
+         string song_dir = @"D:\songs";
+
+         if (!Directory.Exists(song_dir))
+         {
+            
+            Directory.CreateDirectory(song_dir);
+
+            Console.Write("Folder Created Successfully");
+
+         }
+         else
+         {
+            Console.Write("Folder Already Exists");
+         }         
+            
+      }
+   }
+}
+
+OUTPUT
+Folder Created Successfully

@@ -1,0 +1,25 @@
+using System;
+using System.IO;
+
+namespace HelloWorld {
+
+   class Program {
+
+      static void Main(string[] args) {
+            
+         string root = @"C:\Windows";
+
+         string[] fileEntries = Directory.GetFiles(root);
+
+         foreach (string element in fileEntries)
+            Console.WriteLine(element);
+            
+      }
+   }
+}
+
+OUTPUT
+C:\Windows\Ascd_ProcessLog.ini
+C:\Windows\Ascd_tmp.ini
+C:\Windows\bfsvc.exe
+C:\Windows\bootstat.dat

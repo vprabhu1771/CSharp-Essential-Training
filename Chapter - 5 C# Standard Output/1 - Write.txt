@@ -1,0 +1,5 @@
+Console.Write("Hello ");
+Console.Write("World");
+
+OUTPUT
+Hello World

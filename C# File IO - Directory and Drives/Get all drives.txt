@@ -1,0 +1,25 @@
+The GetLogicalDrives method returns all the logical drives on a system.
+
+using System;
+using System.IO;
+
+namespace HelloWorld {
+
+   class Program {
+
+      static void Main(string[] args) {
+            
+         string[] drives = System.IO.Directory.GetLogicalDrives();
+
+         foreach(string element in drives)
+         {
+            Console.WriteLine(element);
+         }
+            
+      }
+   }
+}
+
+OUTPUT
+C:\
+D:\

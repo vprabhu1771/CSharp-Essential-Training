@@ -1,0 +1,16 @@
+double area;
+
+float radius, pi;
+
+radius = 10.8f;
+
+pi = 3.1416F;
+
+area = pi * radius * radius;
+
+Console.Write("Area of Circle is ");
+
+Console.Write(area);
+
+OUTPUT
+Area of Circle is 366.43621826171875

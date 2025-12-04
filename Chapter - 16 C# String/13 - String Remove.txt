@@ -1,0 +1,20 @@
+using System;
+using System.IO;
+
+namespace HelloWorld {
+
+   class Program {
+
+      static void Main(string[] args) {
+            
+         string data = "old friend";
+
+         // delete from index 5 to end of string
+         Console.WriteLine(data.Remove(5));
+                     
+      }      
+   }
+}
+
+OUTPUT
+old f

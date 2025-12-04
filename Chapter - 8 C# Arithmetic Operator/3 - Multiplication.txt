@@ -1,0 +1,17 @@
+int x = 10;
+
+int y = 2;
+
+Console.WriteLine("x = " + x);
+
+Console.WriteLine("y = " + y);
+
+Console.WriteLine(x + " * " + y + " = " + (x*y));
+
+OUTPUT
+
+x = 10
+
+y = 2
+
+10 * 2 = 20

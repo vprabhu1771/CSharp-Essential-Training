@@ -1,0 +1,43 @@
+using System;
+using System.IO;
+
+namespace HelloWorld {
+
+   class Program {
+
+      static void Main(string[] args) {
+            
+         string data1 = " Cuddalore ";
+
+         string data2 = " Cuddalore";
+
+         string data3 = "Cuddalore ";
+
+         // Before Trim method call
+         Console.WriteLine("Before:");
+         Console.WriteLine(data1);
+         Console.WriteLine(data2);
+         Console.WriteLine(data3);
+
+         Console.WriteLine("------");
+
+         // After Trim method call
+         Console.WriteLine("After:");
+         Console.WriteLine(data1.Trim());
+         Console.WriteLine(data2.Trim());
+         Console.WriteLine(data3.Trim());
+      }      
+   }
+}
+
+OUTPUT
+
+Before:
+ Cuddalore
+ Cuddalore
+Cuddalore
+------
+After:
+Cuddalore
+Cuddalore
+Cuddalore

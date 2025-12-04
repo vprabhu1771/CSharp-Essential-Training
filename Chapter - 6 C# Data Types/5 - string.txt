@@ -1,0 +1,8 @@
+string name = "Prabhu";
+
+Console.Write("Name is\t:\t");
+
+Console.Write(name);
+
+OUTPUT
+Name is :       Prabhu

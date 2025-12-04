@@ -1,0 +1,9 @@
+int x = 10;
+
+x *= 2;
+
+Console.WriteLine("x = " + x);
+
+OUTPUT
+
+x = 20

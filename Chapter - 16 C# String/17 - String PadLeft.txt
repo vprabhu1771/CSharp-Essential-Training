@@ -1,0 +1,22 @@
+using System;
+using System.IO;
+
+namespace HelloWorld {
+
+   class Program {
+
+      static void Main(string[] args) {
+            
+         string data = "Icecream";
+
+         string result = data.PadLeft(12);
+
+         Console.WriteLine(result);   
+
+      }      
+   }
+}
+
+OUTPUT
+
+    Icecream
